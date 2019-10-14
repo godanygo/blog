@@ -18,7 +18,7 @@ p {
 
 /* The navigation bar */
 .navbar {
-  overflow: hidden;
+  
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -28,7 +28,6 @@ p {
 /* Links inside the navbar */
 .navbar a {
   float: left;
- 
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -39,6 +38,12 @@ p {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
 }
 
 img {
